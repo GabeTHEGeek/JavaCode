@@ -4,7 +4,6 @@ public class Cat extends Animal
     public Cat()
     {
         iPlayBehavior = new CatPlay();
-        System.out.println("Ruff, Ruff ");
     }
 
     public void meow()

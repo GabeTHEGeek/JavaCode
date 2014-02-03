@@ -3,6 +3,15 @@ public class Dog extends Animal {
     public Dog()
     {
         iPlayBehavior = new DogPlay();
-        System.out.println("Ruff, Ruff ");
+    }
+
+    public void bark()
+    {
+        System.out.println("RUFF RUFF RUFF");
+    }
+
+    public void playFetch()
+    {
+        System.out.println("Fetching ball....");
     }
 }
